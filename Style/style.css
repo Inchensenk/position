@@ -1,16 +1,9 @@
-.box {
-  position: relative; /*чтобы .item позиционировался относительно .box*/
-  width: 500px;
-  height: 500px;
-  border: 5px solid #f00; /*обводка*/
-}
-
 .item {
   width: 50px;
   height: 50px;
   background-color: #f00;
   border-radius: 100%;
-  position: absolute;
-  bottom: 100px;
-  right: 0;
+  position: fixed;
+  right: 20px;
+  top: 50px;
 }
